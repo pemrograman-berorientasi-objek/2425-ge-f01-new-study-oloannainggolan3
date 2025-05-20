@@ -1,6 +1,9 @@
 package pbo.model;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "course")
@@ -13,10 +16,10 @@ public class Course {
     @Column(name = "course_name", nullable = false, length = 255)
     private String nama;
 
-    @Column(name = "semester", nullable = false)
+    @Column(name = "semester", nullable = false, length = 25)
     private int semester;
 
-    @Column(name = "credit", nullable = false)
+    @Column(name = "credit", nullable = false, length = 25)
     private int kredit;
 
     public Course() {
