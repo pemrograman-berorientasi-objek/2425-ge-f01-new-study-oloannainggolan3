@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+//12S23013-Andika Nadadap//
+//12S23033-Oloan Nainggolan//
 @Entity
 @Table(name = "course")
 public class Course {
@@ -23,7 +25,7 @@ public class Course {
     private int kredit;
 
     public Course() {
-        // default constructor for JPA
+        
     }
 
     public Course(String kode, String nama, int semester, int kredit) {

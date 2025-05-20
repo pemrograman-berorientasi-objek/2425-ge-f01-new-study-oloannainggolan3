@@ -1,6 +1,10 @@
 package pbo.model;
-
-import javax.persistence.*;
+//12S23013-Andika Nadadap//
+//12S23033-Oloan Nainggolan//
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "student")
@@ -22,7 +26,7 @@ public class Student {
     private String prodi;
 
     public Student() {
-        // empty constructor
+        
     }
 
     public Student(String nim, String nama, String prodi) {

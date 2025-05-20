@@ -1,6 +1,10 @@
 package pbo.model;
-
-import javax.persistence.*;
+//12S23013-Andika Nadadap//
+//12S23033-Oloan Nainggolan//
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "enrollment")
@@ -19,7 +23,7 @@ public class Enrollment {
     private String courseId;
 
     public Enrollment() {
-        // empty constructor for JPA
+       
     }
 
     public Enrollment(String studentId, String courseId) {
